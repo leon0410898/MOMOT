@@ -80,7 +80,7 @@ The codebase is built on top of [Deformable DETR](https://github.com/fundamental
 
 #### Training on single node
 
-You can download COCO pretrained weights from [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR). Then training MOTR on 8 GPUs as following:
+You can download COCO pretrained weights from [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR). Then training MOMOT as following:
 
 ```bash 
 sh config/momot_train.sh
@@ -94,7 +94,7 @@ sh config/momot_eval.sh
 
 ```
 
-#### Evaluation on MOT17
+#### Inference on MOT17
 
 ```bash
 sh config/momot_submit.sh
