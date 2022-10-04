@@ -1,12 +1,6 @@
 # MOMOT: Motion-Guided Attention for Multiple Object Tracking
 
-</div>
-
-
 ## Introduction
-
-**TL; DR.** MOTR is a fully end-to-end multiple-object tracking framework based on Transformer. It directly outputs the tracks within the video sequences without any association procedures.
-
 ![image](https://github.com/leon0410898/MOMOT/figs/demo.gif)
 
 **Abstract.** The motion-guided attention is based on track queries, which are regarded as both motion prior and temporal offset predictors without specifying any extra embedding to predict motion. The motion prior explicitly indicates queries where to attend the possible keys. Thus, track queries only need to interact with a constant number of keys around the queries to save computation. This motion-guided attention is fully integrated with the transformer, which enables an end-to-end architecture. The simulation results on MOT17 have shown the state-ofthe-art performance
